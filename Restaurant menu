@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #d35400;
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .category {
+      margin-bottom: 40px;
+    }
+    .category h2 {
+      border-bottom: 2px solid #d35400;
+      padding-bottom: 10px;
+      color: #d35400;
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 10px 0;
+      border-bottom: 1px dashed #ccc;
+    }
+    .item:last-child {
+      border-bottom: none;
+    }
+    .item-info {
+      max-width: 75%;
+    }
+    .item-name {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .item-description {
+      font-size: 14px;
+      color: #666;
+    }
+    .item-price {
+      font-weight: bold;
+      color: #d35400;
+      font-size: 16px;
+    }
+    @media (max-width: 600px) {
+      .item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .item-price {
+        margin-top: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Delizia Restaurant</h1>
+    <p>Discover Our Delicious Menu</p>
+  </header>
+
+  <div class="container">
+    <div class="category">
+      <h2>🥗 Starters</h2>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Garlic Bread</div>
+          <div class="item-description">Crispy baked bread with garlic butter and herbs.</div>
+        </div>
+        <div class="item-price">₹120</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Caesar Salad</div>
+          <div class="item-description">Romaine lettuce with Caesar dressing, croutons, and parmesan.</div>
+        </div>
+        <div class="item-price">₹150</div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>🍝 Mains</h2>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Margherita Pizza</div>
+          <div class="item-description">Classic cheese pizza with tomato base and fresh basil.</div>
+        </div>
+        <div class="item-price">₹280</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Butter Chicken</div>
+          <div class="item-description">Tender chicken cooked in rich tomato-butter gravy.</div>
+        </div>
+        <div class="item-price">₹320</div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>🍨 Desserts</h2>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Chocolate Brownie</div>
+          <div class="item-description">Warm brownie served with vanilla ice cream.</div>
+        </div>
+        <div class="item-price">₹160</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Cheesecake</div>
+          <div class="item-description">Creamy cheesecake with a biscuit base.</div>
+        </div>
+        <div class="item-price">₹180</div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>🥤 Drinks</h2>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Cold Coffee</div>
+          <div class="item-description">Chilled coffee blend with a scoop of ice cream.</div>
+        </div>
+        <div class="item-price">₹100</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Lemonade</div>
+          <div class="item-description">Freshly squeezed lemon with mint and sugar.</div>
+        </div>
+        <div class="item-price">₹80</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
