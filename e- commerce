@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-commerce Wireframe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">LOGO</div>
+    <button class="demo-btn">FOR DEMO CLICK HERE</button>
+    <div class="cart">CART</div>
+  </header>
+
+  <section class="intro">
+    <h1>E-commerce Website</h1>
+    <p>An e-commerce website UI/UX project is the process of designing an online store that is both visually appealing and easy to use.</p>
+  </section>
+
+  <main>
+    <aside class="sidebar">
+      <h2>Categories</h2>
+      <ul>
+        <li>Category 1</li>
+        <li>Category 2</li>
+        <li>Category 3</li>
+        <li>Category 4</li>
+      </ul>
+    </aside>
+
+    <section class="content">
+      <input type="text" class="search-bar" placeholder="Search products..." />
+
+      <div class="product-grid">
+        <div class="product-card">Product</div>
+        <div class="product-card">Product</div>
+        <div class="product-card">Product</div>
+        <div class="product-card">Product</div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
